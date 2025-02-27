@@ -66,6 +66,6 @@ df = pd.DataFrame({
 
 print(tabulate(df, headers='keys', tablefmt='grid'))
 
-df.to_csv('tvs.csv', index=False)
+df.to_csv('tvs.csv', index=False, sep='|')
 
 driver.quit()
